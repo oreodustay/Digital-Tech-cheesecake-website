@@ -103,7 +103,6 @@
         cursor: pointer;
         border-radius: 30px;
         transition: 0.3s;
-        margin-left: 50px;
     }
 
     .btn:hover {
@@ -192,6 +191,61 @@
         margin-bottom: 10px;
     }
 
+    #cheesecakerecipeheading {
+        font-size: 36px;
+        text-align: center;
+        background: var(--beige);
+        border: 4px double var(--brown);
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+        .container {
+        display: flex;
+        gap: 20px;
+    }
+
+    .recipe-ingredients, .recipe-method {
+        background: var(--beige);
+        border: 4px double var(--brown);
+        color: var(--brown);
+        text-align: left;
+        border-radius: 20px;
+        padding: 40px;
+        flex: 1;
+    }
+
+    .recipe-ingredients h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .h3s-recipe {
+        text-decoration: underline;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .recipe-method {
+        background: var(--beige);
+        border: 4px double var(--brown);
+        color: var(--brown);
+        text-align: left;
+        border-radius: 20px;
+        padding: 40px;
+        width: 50%; 
+    }
+
+    .recipe-method h2 {
+        font-size: 20px;
+    }
+
+    .ingredientsheadings {
+        text-decoration: underline;
+
+    }
+
     footer {
         background: var(--brown);
         color: white;
@@ -247,10 +301,10 @@
     z-index: 2;
     max-width: 800px;
     padding: 20px;
-    margin-left: 800px;
+    align-items: center;
 }
 
-/* FIXING CONTRAST ISSUES HERERERE UGHHH MY FINGERS HURT*/
+/* FIXING CONTRAST ISSUES HERERERE. FINGERS HURT*/
 
 .hero h1 {
     font-size: 56px;
@@ -332,7 +386,6 @@
         <h2 class = "section-title">Loved By Customers</h2>
         <p class = "quote">"The smoothest cheesecake eveerrr!"</p>
         <p class = "quote">"Literally melts in my mouth."</p>
-        <p class = "quote">"There's no chickens here."</p>
         </div>
 </section>
 
@@ -342,6 +395,55 @@
         <p>Freshly baked. Fresh ingredients. Made with love. Ready to be delivered.</p>
         <button class = "btn">Order Now!</button>
         </div>
+</section>
+
+<section>
+    <h2 id = "cheesecakerecipeheading">Wanna make our cheesecake youself?</h2><br>
+    <div class = "container">
+    <div class = "recipe-ingredients">
+<h3 class = "h3s-recipe">Ingredients:</h3>
+<br>
+<h3 class = "ingredientsheadings">Base:</h3>
+<br>
+<ul>
+    <li>250g packet digestive or ginger biscuits</li>
+    <li>1 tsp finely grated lemon zest</li>
+    <li>1 Tbsp lemon juice</li>
+    <li>75g butter, melted (or Olivani Spread)</li>
+</ul>
+<br>
+<h3 class = "ingredientsheadings">Filling:</h3>
+<br>
+<ul>
+    <li>2 tsp gelatine</li>
+    <li>2 Tbsp water</li>
+    <li>250g Meadow Fresh cream cheese</li>
+    <li>250g Meadow Fresh sour cream</li>
+    <li>½ cup Chelsea caster sugar</li>
+    <li>2 Tbsp lemon juice</li>
+    <li>1 tsp finely grated lemon zest</li>
+    <li>1 tsp vanilla essence</li>
+</ul>
+</div>
+
+    <div class = "recipe-method">
+<h3 class = "h3s-recipe">Method:</h3>
+<br>
+<ol>
+    <li>Crush the biscuits finely in a food processor or with a rolling pin and mix with the lemon zest, juice and butter.</li>
+    <br>
+    <li>Press the crumb mixture over the base and sides of a 20cm springform tin. Chill while you make the filling.</li>
+    <br>   
+    <li>Sprinkle the gelatine over the cool water and leave to swell for 10 minutes.</li>
+    <br>    
+    <li>Beat the cream cheese until soft, add the sour cream and beat again. Then stir in the sugar, lemon juice and zest and the vanilla. Beat well until the sugar has dissolved.</li>
+    <br>   
+    <li>Put the bowl with the swelled gelatine over simmering water and allow it to melt, and then mix quickly into the cheese filling.</li>
+    <br>    
+    <li>Pour the filling onto the crumb crust and leave it to set in the fridge for at least 4 hours or overnight.</li>
+</ol>
+    </div>
+    </div>
 </section>
 
 <footer>
